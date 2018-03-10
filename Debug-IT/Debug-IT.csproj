@@ -66,6 +66,12 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\animate.min.css" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\FontAwesome.otf" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -75,18 +81,56 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\plugin.css" />
+    <Content Include="css\style.css" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="Global.asax" />
+    <Content Include="images\1.jpg" />
+    <Content Include="images\2.jpg" />
+    <Content Include="images\awm-port.jpg" />
+    <Content Include="images\bg\back.jpg" />
+    <Content Include="images\bg\bg.jpg" />
+    <Content Include="images\bg\me.jpg" />
+    <Content Include="images\bg\statistics.jpg" />
+    <Content Include="images\favicon\apple-touch-icon.png" />
+    <Content Include="images\favicon\favicon.ico" />
+    <Content Include="images\logoD%28v%29.png" />
+    <Content Include="images\owl-carousel\grabbing.png" />
+    <Content Include="images\portfolio\1.jpg" />
+    <Content Include="images\portfolio\2.jpg" />
+    <Content Include="images\portfolio\3.jpg" />
+    <Content Include="images\portfolio\4.jpg" />
+    <Content Include="images\portfolio\5.jpg" />
+    <Content Include="images\portfolio\6.jpg" />
+    <Content Include="images\prvir-port.jpg" />
+    <Content Include="images\testimonial\1.png" />
+    <Content Include="images\testimonial\2.png" />
+    <Content Include="images\testimonial\3.png" />
+    <Content Include="images\vitomiha-port.jpg" />
+    <Content Include="js\app.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\particles.js" />
+    <Content Include="js\particles.min.js" />
+    <Content Include="js\plugin.js" />
+    <Content Include="js\scripts.js" />
+    <Content Include="Početna.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Početna.aspx.cs">
+      <DependentUpon>Početna.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Početna.aspx.designer.cs">
+      <DependentUpon>Početna.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
