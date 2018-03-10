@@ -779,7 +779,7 @@ ul.portfolio li:hover {
 
 .statistics-section {
     position: relative;
-    background: url(../images/bg/back.jpg);
+    /*background: url(../images/bg/back.jpg);*/
     background-size: cover;
     z-index: 1;
 }
