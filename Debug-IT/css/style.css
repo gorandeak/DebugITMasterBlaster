@@ -159,8 +159,8 @@ fieldset {
 .button-style:hover,
 .button-style:active,
 .button-style:focus {
-	background: #24b662;
-	color: #ffffff !important;
+	background-color:orange;
+	color: white !important;
 }
 
 .button-style:before {
@@ -188,8 +188,9 @@ fieldset {
 }
 
 .button-style-dark {
-	border: 3px solid #000000 !important;
-	color: #000000;
+	border: 3px solid transparent !important;
+	color: white;
+    background-color:darkorange;
 }
 
 
@@ -410,6 +411,7 @@ body.loaded #preloader{
 }
 
 .header-top-area {
+    /*background-color: #282727;*/
     position: fixed;
     left: 0;
     top: 0;
@@ -492,6 +494,8 @@ body.loaded #preloader{
     color: #fff;
 }
 
+
+
 /* Business */
 .ignite-cta {
     background-color: #0794F3;
@@ -508,6 +512,7 @@ body.loaded #preloader{
     text-transform: uppercase;
     font-weight: bold;
     letter-spacing: 1px;
+    line-height:100%;
 }
 
     .ignite-btn:hover, .ignite-btn:focus {
@@ -521,6 +526,7 @@ body.loaded #preloader{
 #team {
     padding-top: 0;
     background-color: #282727;
+    
 }
 
 .team-members {
@@ -776,13 +782,14 @@ ul.portfolio li:hover {
 
 .statistics-section {
     position: relative;
-    /*background: url(../images/bg/back.jpg);*/
+    background: url(../images/bg/lego.jpg);
+    background-color:darkorange;
     background-size: cover;
     z-index: 1;
 }
 
 .statistics {
-  margin: 25px 0;
+  margin: 30px 0;
   overflow: hidden;
   color: #ffffff;
 }
@@ -880,17 +887,17 @@ ul.portfolio li:hover {
 /* Contact Us */
 
 .contact-us {
-	background-color: #f9f9f9;
+    background-color: #282727;
 }
 
 
 .contact-us-detail i {
-	font-size: 30px;
+    font-size: 30px;
     margin-bottom: 10px;
-    background-color: #fff;
+    background-color: #0794F3;
     border-radius: 50%;
     box-shadow: 0px 1px 2px 0px rgba(90, 91, 95, 0.15);
-	transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
     width: 88px;
     height: 88px;
     line-height: 88px;
@@ -902,7 +909,7 @@ ul.portfolio li:hover {
 }
 
 .contact-us-detail a {
-	color: #333;
+	color: white;
 }
 
 .contact-us-detail a:hover {
@@ -916,6 +923,8 @@ ul.portfolio li:hover {
 .form-control {
 	border: 2px solid transparent;
 	height: 50px;
+    background-color:dimgray;
+    color:lightgray;
 	border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; -ms-border-radius: 2px; -o-border-radius: 2px;
 	-webkit-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
 	   -moz-box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
@@ -938,8 +947,8 @@ ul.portfolio li:hover {
 }
 
 .form-control:focus {
-	border-color: #24b662;
-	border-width: 2px;
+	border-color: orange;
+	border-width: 1px;
 }
 
 .map {
@@ -1060,7 +1069,7 @@ ul.portfolio li:hover {
 
 /* Footer */
 
-.footer-section {
+/*.footer-section {
     background: #000;
     padding: 80px 0px;
     color: #f8f8f8;
@@ -1072,8 +1081,181 @@ ul.portfolio li:hover {
 
 .footer-section a {
     color: #ffffff;
+}*/
+
+
+footer {
+    font-size: 13px;
+    font-family: "Montserrat", sans-serif;
+    background: #161616;
+    color: #7b7b7b;
+    float: left;
+    width: 100%;
 }
 
+    footer h2, footer h3, footer h4, footer h5, footer h6 {
+        color: #ccc !important;
+    }
+
+    footer > .container {
+        padding-top: 4em;
+        padding-bottom: 4em;
+    }
+
+    footer address {
+        font-weight: 400;
+        font-size: 13px;
+    }
+
+    footer a {
+        color: #ccc;
+    }
+
+        footer a:hover, footer a:active, footer a:focus {
+            text-decoration: underline;
+            color: #ffffff;
+        }
+
+    footer .fh5co-footer-title {
+        font-family: "Montserrat", sans-serif;
+        color: #0794F3 !important;
+        font-weight:bold;
+        letter-spacing: 4px;
+        font-size: 12px;
+        text-transform: uppercase;
+        display: inline-block;
+        margin-bottom: 2s0px;
+    }
+
+    footer .fh5co-footer-links {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+        footer .fh5co-footer-links li {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 .5em 0;
+        }
+
+    footer .fh5co-footer-social {
+        padding: 0;
+        margin: 0;
+    }
+
+@media screen and (max-width: 768px) {
+    footer .fh5co-footer-social {
+        float: left !important;
+        width: 100% !important;
+    }
+}
+
+footer .fh5co-footer-social li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline;
+}
+
+    footer .fh5co-footer-social li a {
+        font-size: 20px;
+        padding: 4px 7px;
+    }
+
+.fh5co-copyright {
+    padding: 3em 0;
+    margin-top: 5em;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+@media screen and (max-width: 768px) {
+    .fh5co-copyright {
+        float: left !important;
+        width: 100% !important;
+    }
+}
+
+.fh5co-nav-toggle {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+    .fh5co-nav-toggle.active i::before, .fh5co-nav-toggle.active i::after {
+        background: #ffffff;
+    }
+
+    .fh5co-nav-toggle i {
+        position: relative;
+        display: inline-block;
+        width: 25px;
+        height: 3px;
+        color: #252525;
+        font: bold 14px/.4 Helvetica;
+        text-transform: uppercase;
+        text-indent: -55px;
+        background: #252525;
+        transition: all .2s ease-out;
+    }
+
+        .fh5co-nav-toggle i::before, .fh5co-nav-toggle i::after {
+            content: '';
+            width: 25px;
+            height: 3px;
+            background: #252525;
+            position: absolute;
+            left: 0;
+            transition: all .2s ease-out;
+        }
+
+    .fh5co-nav-toggle.fh5co-nav-white > i {
+        color: #fff;
+        background: #fff;
+    }
+
+        .fh5co-nav-toggle.fh5co-nav-white > i::before, .fh5co-nav-toggle.fh5co-nav-white > i::after {
+            background: #fff;
+        }
+
+    .fh5co-nav-toggle i::before {
+        top: -7px;
+    }
+
+    .fh5co-nav-toggle i::after {
+        bottom: -7px;
+    }
+
+    .fh5co-nav-toggle:hover i::before {
+        top: -10px;
+    }
+
+    .fh5co-nav-toggle:hover i::after {
+        bottom: -10px;
+    }
+
+    .fh5co-nav-toggle.active i {
+        background: transparent;
+    }
+
+        .fh5co-nav-toggle.active i::before {
+            top: 0;
+            -webkit-transform: rotateZ(45deg);
+            -moz-transform: rotateZ(45deg);
+            -ms-transform: rotateZ(45deg);
+            -o-transform: rotateZ(45deg);
+            transform: rotateZ(45deg);
+        }
+
+        .fh5co-nav-toggle.active i::after {
+            bottom: 0;
+            -webkit-transform: rotateZ(-45deg);
+            -moz-transform: rotateZ(-45deg);
+            -ms-transform: rotateZ(-45deg);
+            -o-transform: rotateZ(-45deg);
+            transform: rotateZ(-45deg);
+        }
 
 
 /* Responsive */
@@ -1129,11 +1311,11 @@ ul.portfolio li:hover {
     .navigation-menu .navbar-nav li a {
         padding: 11px 15px;
     }
-    .navigation-menu .navbar-nav li a:hover {
-        color: #24b662;
-    }
+        .navigation-menu .navbar-nav li a:hover {
+            color: #0794F3;
+        }
     .navigation-background .navigation-menu .navbar-nav li a:hover {
-        color: #24b662;
+        color: #0794F3;
     }
     .navigation-background .navigation-menu .navbar-nav li a {
         padding: 11px 15px;
@@ -1230,7 +1412,7 @@ ul.portfolio li:hover {
 /* Scroll To Top */
 
 .scroll-to-top {
-    background-color: #24b662;
+    background-color: #0794F3;
     display: none;
     width: 50px;
     height: 50px;
@@ -1246,7 +1428,7 @@ ul.portfolio li:hover {
 
 .scroll-to-top:hover,
 .scroll-to-top:focus {
-    background-color: #1bab58;
+    background-color: darkorange;
     color: #ffffff;
 }
 
@@ -1519,7 +1701,7 @@ ul.portfolio li:hover {
 }
 
 .color-3 {
-	color: #d8be10;
+    color: yellow;
 }
 
 .color-4 {
@@ -1527,11 +1709,14 @@ ul.portfolio li:hover {
 }
 
 .color-5 {
-	color: #f97400;
+	color: orange;
 }
 
 .color-6 {
-	color: lawngreen;
+	color: lime;
+}
+.color-7 {
+    color: white;
 }
 
 
@@ -1576,3 +1761,11 @@ ul.portfolio li:hover {
 .uipasta-credit a:hover {
     color: #ffffff;
 }
+
+
+/*media */
+/*@media screen and (max-width: 768px) {
+    .header-text {
+        padding-top: -20% !important;
+    }
+}*/

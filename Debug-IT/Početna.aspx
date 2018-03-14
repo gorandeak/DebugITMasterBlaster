@@ -18,14 +18,14 @@
     <title></title>
     
     <!-- Favicon -->
-    <link rel="shortcut icon" href="images/favicon/favicon.ico">
-    <link rel="apple-touch-icon" sizes="144x144" type="image/x-icon" href="images/favicon/apple-touch-icon.png">
+    <link rel="shortcut icon" href="images/logoD(v).png">
+    <link rel="apple-touch-icon" sizes="144x144" type="image/x-icon" href="images/logoD(v).png">
     
     <!-- All CSS Plugins -->
     <link rel="stylesheet" type="text/css" href="css/plugin.css">
     
     <!-- Main CSS Stylesheet -->
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css?ver=1.1">
     
     <!-- Google Web Fonts  -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700">
@@ -83,10 +83,10 @@
                                         <li class="active"><a class="smoth-scroll" href="#home">Home <div class="ripple-wrapper"></div></a></li>
                                         <li><a class="smoth-scroll" href="#services">services</a></li>
                                         <li><a class="smoth-scroll" href="#portfolio">Portfolio</a></li>
-                                        <li><a class="smoth-scroll" href="#about">Team</a></li>
+                                        <li><a class="smoth-scroll" href="#team">Team</a></li>
                                         <li><a class="smoth-scroll" href="#testimonials">Testimonial</a>
-                                        <li><a class="smoth-scroll" href="#pricing">Pricing</a></li>
-                                        <li><a class="smoth-scroll" href="#contact">Contact</a>
+                                        <li><a class="smoth-scroll" href="underConstruction.aspx">Pricing</a></li>
+                                        <li><a class="smoth-scroll" href="kontakt.aspx">Contact</a>                                        
                                     </ul>
                                 </div>
                             </div>
@@ -103,7 +103,7 @@
                         <div class="row">
                             <div class="col-md-12 text-center">
                                 <div class="header-text">
-                                    <p style="color:#0794F3; font-size:18px;">DEBUG IT</p>
+                                    <p style="color:#0794F3; font-size:20px;font-weight:bold;">DEBUG IT</p>
                                     <h2><span class="typing"></span></h2>                                   
                                 </div>
                             </div>
@@ -121,7 +121,7 @@
           <div class="container">
             <div class="row">
               <div class="col-md-12">
-                <a href="#" class="ignite-btn">LET'S TALK BUSINESS </a>
+                <a href="kontakt.aspx" class="ignite-btn" style="line-height:100%;">LET'S TALK BUSINESS </a>                  
               </div>
             </div>
           </div>
@@ -146,7 +146,9 @@
 					<i class="fa fa-code color-1"></i>
 					<h3>WEBSITE DESIGN</h3>
 					<hr>
-					<p>Rolling is a clean and beautiful template with every must features. You can use it for many purpose in website.</p>
+					<p style="font-size:13px;">You need web page that looks perfect on any device.
+From shot to pitcher, smart phone to desktop, your site should look and function seamlessly.<br /> Let the team of Debug IT do it ALL for you. 
+We speak all of the best languages. :)</p>
 				</div>
 			</div>
 
@@ -155,7 +157,7 @@
 					<i class="fa fa-desktop color-2"></i>
 					<h3>WEB APP DEVELOPEMENT</h3>
 					<hr>
-					<p>Rolling is a clean and beautiful template with every must features. You can use it for many purpose in website.</p>
+					<p style="font-size:13px;">By fully understanding your requirements and asking the right questions, Debug IT's development team delivers complex yet user-friendly web applications and can help starting with strategy all the way through delivery and maintenance.</p>
 				</div>
 			</div>
 
@@ -164,16 +166,20 @@
 					<i class="fa fa-mobile color-3"></i>
 					<h3>ANDROID APP DEVELOPEMENT</h3>
 					<hr>
-					<p>Rolling is a clean and beautiful template with every must features. You can use it for many purpose in website.</p>
+					<p style="font-size:13px;">Looking for an affordable solution provider to develop your mobile app, look no further. The Debug IT team can help you transform your idea into an intuitive, unique and user-friendly mobile application. </p>
 				</div>
 			</div>
+                </div>
+            <div class="row">
             
             <div class="col-md-4 col-sm-6">
 				<div class="services-detail">
 					<i class="fa fa-bullhorn color-4"></i>
 					<h3>DIGITAL MARKETING</h3>
 					<hr>
-					<p>Rolling is a clean and beautiful template with every must features. You can use it for many purpose in website.</p>
+					<p style="font-size:13px;">Are you looking to have better engagement levels across web and mobile?<br />
+We create well balanced, integrated programs that make sense for your entire business and work towards your ultimate, bottom line goals.
+</p>
 				</div>
 			</div>
 
@@ -182,7 +188,7 @@
 					<i class="fa fa-pencil color-5"></i>
 					<h3>GRAPHIC DESIGN</h3>
 					<hr>
-					<p>Rolling is a clean and beautiful template with every must features. You can use it for many purpose in website.</p>
+					<p style="font-size:13px;">Good design makes businesses and their communication tools better.<br /> From a logo to a complete brand identity we’ve got you covered. Our graphic design team, are fully qualified, full of ideas and full of enthusiasm!</p>
 				</div>
 			</div>
 
@@ -191,18 +197,15 @@
 					<i class="fa fa-ge color-6"></i>
 					<h3>NEŠTO</h3>
 					<hr>
-					<p>Rolling is a clean and beautiful template with every must features. You can use it for many purpose in website.</p>
+					<p style="font-size:13px;">Rolling is a clean and beautiful template with every must features. You can use it for many purpose in website.<br /> Rolling is a clean and beautiful template with every must features. You can use it for many purpose in website.</p>
 				</div>
 			</div>
-            
             </div>
+            
         </div>
     </section>
     <!-- Services End -->
     
-    
- 
-
     
     <!-- Portfolio Start -->
     <section id="portfolio" class="portfolio section-space-padding">
@@ -220,14 +223,14 @@
                     <li class="filter" data-filter="all">all</li>
                     <li class="filter" data-filter=".webpage">webpage</li>
                     <li class="filter" data-filter=".app">app</li>
-                    <li class="filter" data-filter=".graphic design">graphic design</li>
+                    <li class="filter" data-filter=".graphic-design">graphic design</li>
                 </ul>
             </div>
             
             <div class="portfolio-inner">
                 <div class="row">
                               
-                    <div class="col-md-4 col-sm-6 col-xs-12 mix webpage">
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix webpage graphic-design">
                         <div class="item">
                             <a href="images/awm-port.jpg" class="portfolio-popup" title="Project Title">
                                 <img src="images/awm-port.jpg" alt="">
@@ -235,7 +238,7 @@
                         </div>
                     </div>
                     
-                    <div class="col-md-4 col-sm-6 col-xs-12 mix app">
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix webpage">
                         <div class="item">
                             <a href="images/prvir-port.jpg" class="portfolio-popup" title="Project Title">
                                 <img src="images/prvir-port.jpg" alt="">
@@ -243,7 +246,7 @@
                         </div>
                     </div>
                     
-                    <div class="col-md-4 col-sm-6 col-xs-12 mix webpage">
+                    <div class="col-md-4 col-sm-6 col-xs-12 mix webpage graphic-design">
                         <div class="item">
                             <a href="images/vitomiha-port.jpg" class="portfolio-popup" title="Project Title">
                                 <img src="images/vitomiha-port.jpg" alt="">
@@ -251,7 +254,7 @@
                         </div>
                     </div>
                     
-                    <div class="col-md-4 col-sm-6 col-xs-12 mix mockups graphic design">
+                    <%--<div class="col-md-4 col-sm-6 col-xs-12 mix mockups graphic design">
                         <div class="item">
                             <a href="images/portfolio/4.jpg" class="portfolio-popup" title="Project Title">
                                 <img src="images/portfolio/4.jpg" alt="">
@@ -273,7 +276,7 @@
                                 <img src="images/portfolio/6.jpg" alt="">
                             </a>
                         </div>
-                    </div> 
+                    </div> --%>
                     
                 </div>
             </div>
@@ -283,29 +286,49 @@
     
     <!-- Team -->
     <section id="team">
-    <div class="container" style="margin-top:7%;">
+    <div class="container" style="margin-top:7%;padding-bottom:7%;">
       <div class="row" style="margin-top:7%;">
         <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
           <div class="section-title"><h2 style="color:white;">The Team</h2></div>
-          <p style="color:white;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam</p>
+          <p style="color:white;">We are what we repeatedly do. Excellence then, is not an act, but a habit.</p>
         </div>
       </div>
         <br/>
         <br/>
         <div class="team-members">
         <div class="row">
-        <div class="col-md-1"></div>
-          <div class="col-md-5 col-sm-12">
+      
+          <div class="col-md-4 col-sm-12">
             <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
               <div class="member-image text-center">
                 <img class="img-responsive" src="images/1.jpg" alt="">
               </div>
               <div class="member-info">
-                <h3 style="color:#0794F3">Marian Dixon</h3>
+                <h3 style="color:#0794F3">Goran Deak</h3>
                 <h4 style="color:#F39207">CEO &amp; Founder</h4>
-                <p style="color:white">Consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                <h4 style="color:white">Digital Marketing Specialist</h4>
+                <%--<p style="color:white">Consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>--%>
               </div>
-              <div class="social-icons">
+             <%-- <div class="social-icons">
+                <ul>
+                  <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+              </div>--%>
+            </div>
+          </div>
+
+            <div class="col-md-4 col-sm-12">
+            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
+              <div class="member-image text-center">
+                <img class="img-responsive" src="images/1.jpg" alt="">
+              </div>
+              <div class="member-info">
+                <h3 style="color:#0794F3">Ivana Perko</h3>
+                <h4 style="color:#F39207">co-CEO &amp; Founder</h4>
+                  <h4 style="color:white">UI/UX Designer</h4>
+                <%--<p style="color:white">Consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>--%>
+              </div>
+              <%--<div class="social-icons">
                 <ul>
                   <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
                   <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
@@ -313,21 +336,22 @@
                   <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
                   <li><a class="rss" href="#"><i class="fa fa-rss"></i></a></li>
                 </ul>
-              </div>
+              </div>--%>
             </div>
           </div>
            
-          <div class="col-md-5 col-sm-12">
+          <div class="col-md-4 col-sm-12">
             <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
               <div class="member-image">
                 <img class="img-responsive" src="images/2.jpg" alt="">
               </div>
               <div class="member-info">
-                <h3 style="color:#0794F3">Lawrence Lane</h3>
-                <h4 style="color:#F39207">UI/UX Designer</h4>
-                <p style="color:white">Consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                <h3 style="color:#0794F3">Adel Othman</h3>
+                <h4 style="color:#F39207">CDO</h4>
+                <h4 style="color:white">Backend Team Lead</h4>
+                <%--<p style="color:white">Consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>--%>
               </div>
-              <div class="social-icons">
+             <%-- <div class="social-icons">
                 <ul>
                   <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
                   <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
@@ -335,10 +359,10 @@
                   <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
                   <li><a class="rss" href="#"><i class="fa fa-rss"></i></a></li>
                 </ul>
-              </div>
+              </div>--%>
             </div>
           </div>
-          <div class="col-md-1"></div>
+       
         </div>
       </div>            
     </div>
@@ -351,7 +375,7 @@
          <div class="container">     
          <div class="row">
              <div class="col-md-12">
-                <a href="#">LET'S TALK BUSINESS </a>
+                <a style="font-size:70px;color:white;font-weight:bolder;line-height:100%;">BRICK BY BRICK </a>
               </div>
              
          </div>
@@ -375,19 +399,19 @@
                 <div class="testimonial-carousel-list margin-top-20">
                 
                     <div class="testimonial-word text-center">
-                    <img src="images/testimonial/1.png" class="img-responsive" alt="">
+                    <img src="images/testimonial/vm-t.jpg" class="img-responsive" alt="">
                         <h2>John doe</h2>
                         <p>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duisauteiruredolor in reprehenderit in voluptate.</p>
                     </div>
                     
                     <div class="testimonial-word text-center">
-                    <img src="images/testimonial/2.png" class="img-responsive" alt="">
+                    <img src="images/testimonial/awm-t.jpg" class="img-responsive" alt="">
                         <h2>John doe</h2>
                         <p>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duisauteiruredolor in reprehenderit in voluptate.</p>
                     </div>
                     
                     <div class="testimonial-word text-center">
-                    <img src="images/testimonial/3.png" class="img-responsive" alt="">
+                    <img src="images/testimonial/pr-t.jpg" class="img-responsive" alt="">
                         <h2>John doe</h2>
                         <p>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duisauteiruredolor in reprehenderit in voluptate.</p>
                     </div>
@@ -400,152 +424,67 @@
     
     <!-- Pricing -->
   
+
+
     <!-- Pricing End -->
-       
-    <!-- Contact Start -->
-    <section id="contact" class="contact-us section-space-padding">
-       <div class="container">
-          <div class="row">
-                <div class="col-sm-12">
-                    <div class="section-title">
-                        <h2>Contact Me.</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit</p>
-                    </div>
-                </div>
-            </div>
-            
-            
-           <div class="text-center margin-top-10 margin-bottom-50">
-            <div class="row">
-            
-               <div class="col-md-4 col-sm-4">
-                <div class="contact-us-detail">  
-                 <i class="fa fa-mobile color-6"></i>
-                  <p><a href="tel:+1234567890">+1234 567 890</a></p>
-                 </div>
-                </div>
-               
-               <div class="col-md-4 col-sm-4">
-                <div class="contact-us-detail">
-                 <i class="fa fa-mail-reply color-5"></i>
-                  <p><a href="mailto:name@domain.com">name@domain.com</a></p>
-                 </div>
-                </div>
-                 
-               <div class="col-md-4 col-sm-4">
-                <div class="contact-us-detail">
-                 <i class="fa fa-clock-o color-3"></i>
-                  <p>Mon - Fri 09:00 – 18:00</p>
-                 </div>
-                </div>
-              
-               </div>
-              </div>
-            
-         
-         <div class="row">
            
-           <div class="col-md-6">   
-                 
-               <div class="row">
-                  <form>
-                    
-					  <div class="col-sm-6">
-						<div class="form-group">
-						  <input type="text" id="name" class="form-control" placeholder="Your Name">
-						 </div>
-                        </div>
-								
-                       <div class="col-sm-6">
-					    <div class="form-group">
-						 <input type="email" id="email" class="form-control" placeholder="Your Email">
-						 </div>
-                        </div>
-                        
-                        <div class="col-sm-6">
-						  <div class="form-group">
-							<input type="text" id="website" class="form-control" placeholder="Your Website">
-						   </div>
-                          </div>
-                          
-                        <div class="col-sm-6">
-						  <div class="form-group">
-							<input type="text" id="address" class="form-control" placeholder="Where are You From?">
-						   </div>
-                          </div>
-								
-                         <div class="col-sm-12">
-						  <select id="subject" class="form-group form-control">
-							<option value="" selected disabled>Subject</option>
-							<option>Website Design & Development</option>
-							<option>Wordpress Development</option>
-							<option>Search Engine Optimization</option>
-                            <option>Mobile Website</option>
-							<option>I Want to General Talk</option>
-                            <option>Other</option>
-						   </select>
-                          </div>
-								
-                       <div class="col-sm-12">
-					    <div class="textarea-message form-group">
-					      <textarea id="message" class="textarea-message form-control" placeholder="Your Message" rows="5"></textarea>
-						  </div>
-                         </div>
-                   
-                   
-                    <div class="text-center">      
-		   <button type="submit" class="button button-style button-style-dark button-style-icon fa fa-long-arrow-right text-center">Submit</button>
-	                  </div>
-                       
-                  </form>                   
-				</div>
-               </div>
-                      
-            <div class="col-md-6">   
-              <div id="my-address" class="map space-set">
-              <p>Map will not be display without Internet Connection.</p>
-            </div>
-           </div>
-         
-        </div>
-       </div>
-       
-      <div class="margin-top-80"> 
-       <ul class="social-icon">
-         <li><a href="#" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a></li>
-         <li><a href="#" target="_blank" class="twitter"><i class="fa fa-twitter"></i></a></li>
-         <li><a href="#" target="_blank" class="google-plus"><i class="fa fa-google-plus"></i></a></li>
-         <li><a href="#" target="_blank" class="instagram"><i class="fa fa-instagram"></i></a></li>
-         <li><a href="#" target="_blank" class="dribbble"><i class="fa fa-dribbble"></i></a></li>
-       </ul>
-      </div>
-       
-     </section>
-     <!-- Contact End -->
-       
-        
-        
-        
     <!-- Footer Start -->
-    <footer class="footer-section">
-        <div class="container">
-            <div class="row">
-               
-      <div class="col-md-4 text-left">
-       <p><span><a href="#about" class="smoth-scroll">About Me</a></span> | <span><a href="#portfolio" class="smoth-scroll">Portfolio</a></span></p>
-          </div>
-               
-            <div class="col-md-4 text-center">
-               <p>© Copyright 2016 Rolling.</p>
-               </div>
-              
-             <div class="col-md-4 uipasta-credit text-right">
-                <p>Design By <a href="http://www.uipasta.com" target="_blank" title="UiPasta">UiPasta</a></p>
-                </div>
-                
-             </div>
-        </div>
-    </footer>
+    <footer role="contentinfo">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3">
+						<h2 class="fh5co-footer-title">About</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+					</div>
+					<div class="col-md-5">
+						<h2 class="fh5co-footer-title" style="color:#0794F3">Offices</h2>
+						<div class="row">
+							<div class="col-md-6">
+								<h3 class="h4">Zagreb</h3>
+								<address>Vile Velebita 32 <br> 10040 Zagreb <br> Croatia </address>
+							</div>
+							<%--<div class="col-md-6">
+								<h3 class="h4">Alaska</h3>
+								<address>1806 Veltri Drive <br> Anchorage, AK 99503</address>
+							</div>--%>
+						</div>
+					</div>
+					<div class="col-md-2">
+						<%--<h2 class="fh5co-footer-title">Links</h2>
+						<ul class="fh5co-footer-links">
+							<li><a href="#">FREEHTML5.co</a></li>
+							<li><a href="#">Smashingmagazine</a></li>
+							<li><a href="#">A List Apart</a></li>
+							<li><a href="#">Creative Market</a></li>
+						</ul>--%>
+					</div>
+					<div class="col-md-2">
+						<h2 class="fh5co-footer-title" style="color:#0794F3">Connect</h2>
+						<ul class="fh5co-footer-links">
+							<li><a href="#" class="fh5co-link"><i class="fa fa-facebook-square"></i>  Facebook</a></li>
+							<li><a href="#" class="fh5co-link"><i class="fa fa-github"></i>  Github</a></li>
+							<li><a href="#" class="fh5co-link"><i class="fa fa-linkedin-square"></i>  LinkedIn</a></li>
+							<li><a href="#" class="fh5co-link"><i class="fa fa-google"></i>  Google Plus</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-md-12">
+						<div class="fh5co-copyright">
+							<p class="pull-left">&copy;	Debug IT 2018. All Rights Reserved.</p> 
+							<ul class="pull-right fh5co-footer-social">
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<%--<li><a href="#"><i class="fa fa-twitter"></i></a></li>--%>
+								<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+								<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</footer>
     <!-- Footer End -->
     
     
@@ -560,7 +499,7 @@
     <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyC0HAKwKinpoFKNGUwRBgkrKhF-sIqFUNA"></script>
     
     <!-- Main Javascript File  -->
-    <script type="text/javascript" src="js/scripts.js"></script>
+    <script type="text/javascript" src="js/scripts.js?ver=1.1"></script>
 
     <!-- Particles js  -->
     <script src="js/particles.js"></script>
