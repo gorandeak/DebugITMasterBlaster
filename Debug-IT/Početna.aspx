@@ -400,7 +400,6 @@ We speak all of the best languages. :)
                 <div class="col-sm-12">
                     <div class="section-title">
                         <h2 style="color: white;">Testimonials</h2>
-                        <%-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>--%>
                     </div>
                 </div>
             </div>
