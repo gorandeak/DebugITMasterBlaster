@@ -359,7 +359,7 @@ We speak all of the best languages. :)
                                 <h3 style="color: #0794F3">Adel Othman</h3>
                                 <h4 style="color: #F39207">CDO</h4>
                                 <h4 style="color: white">Backend Team Lead</h4>
-                                <%--<p style="color:white">Consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>--%>
+                                
                             </div>
                             <%-- <div class="social-icons">
                 <ul>
