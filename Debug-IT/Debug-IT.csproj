@@ -87,7 +87,9 @@
     <Content Include="Global.asax" />
     <Content Include="images\1.jpg" />
     <Content Include="images\2.jpg" />
+    <Content Include="images\adel1.jpg" />
     <Content Include="images\awm-port.jpg" />
+    <Content Include="images\awm3.jpg" />
     <Content Include="images\bg\art.jpg" />
     <Content Include="images\bg\back.jpg" />
     <Content Include="images\bg\bg.jpg" />
@@ -95,8 +97,12 @@
     <Content Include="images\bg\me.jpg" />
     <Content Include="images\bg\neon.jpg" />
     <Content Include="images\bg\statistics.jpg" />
+    <Content Include="images\Deak.jpg" />
     <Content Include="images\favicon\apple-touch-icon.png" />
     <Content Include="images\favicon\favicon.ico" />
+    <Content Include="images\jove1.jpg" />
+    <Content Include="images\jove2.jpg" />
+    <Content Include="images\logo-vm.jpg" />
     <Content Include="images\logoD%28v%29.png" />
     <Content Include="images\owl-carousel\grabbing.png" />
     <Content Include="images\portfolio\1.jpg" />
@@ -113,6 +119,7 @@
     <Content Include="images\testimonial\pr-t.jpg" />
     <Content Include="images\testimonial\vm-t.jpg" />
     <Content Include="images\vitomiha-port.jpg" />
+    <Content Include="images\vm1.jpg" />
     <Content Include="js\app.js" />
     <Content Include="js\jquery.min.js" />
     <Content Include="js\particles.js" />

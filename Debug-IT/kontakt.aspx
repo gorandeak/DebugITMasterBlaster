@@ -132,7 +132,7 @@
 						
                       <div class="col-sm-6">
 						  <div class="form-group">
-							<input type="text" id="lastname" class="form-control" placeholder="Your Surname">
+							<input type="text" id="lastname" class="form-control" placeholder="Your Last Name">
 						   </div>
                           </div>
 
@@ -203,7 +203,7 @@
 				<div class="row">
 					<div class="col-md-3">
 						<h2 class="fh5co-footer-title">About</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+						<p>Creative agency from Zagreb, Croatia passionate about developement and design.</p>
 					</div>
 					<div class="col-md-5">
 						<h2 class="fh5co-footer-title" style="color:#0794F3">Offices</h2>
@@ -231,9 +231,9 @@
 						<h2 class="fh5co-footer-title" style="color:#0794F3">Connect</h2>
 						<ul class="fh5co-footer-links">
 							<li><a href="#" class="fh5co-link"><i class="fa fa-facebook-square"></i>  Facebook</a></li>
-							<li><a href="#" class="fh5co-link"><i class="fa fa-github"></i>  Github</a></li>
+							<%--<li><a href="#" class="fh5co-link"><i class="fa fa-github"></i>  Github</a></li>--%>
 							<li><a href="#" class="fh5co-link"><i class="fa fa-linkedin-square"></i>  LinkedIn</a></li>
-							<li><a href="#" class="fh5co-link"><i class="fa fa-google"></i>  Google Plus</a></li>
+							<%--<li><a href="#" class="fh5co-link"><i class="fa fa-google"></i>  Google Plus</a></li>--%>
 						</ul>
 					</div>
 				</div>
