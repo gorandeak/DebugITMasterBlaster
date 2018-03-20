@@ -10,17 +10,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     
     <!-- SEO -->
-    <meta name="description" content="150 words">
-    <meta name="author" content="uipasta">
-    <meta name="url" content="http://www.yourdomainname.com">
-    <meta name="copyright" content="company name">
+    <meta name="description" content="WEBSITE DESIGN, WEB APP DEVELOPEMENT, ANDROID APP DEVELOPEMENT, DIGITAL MARKETING and GRAPHIC DESIGN! You need all of this to STAND OUT!">
+    <meta name="author" content="Debug IT">
+    <meta name="url" content="http://www.debug-it.hr">
+    <meta name="copyright" content="Debug IT">
     <meta name="robots" content="index,follow">
     
     
-    <title></title>
+    <title>Debug IT</title>
     
     <!-- Favicon -->
-    <link rel="shortcut icon" href="images/favicon/favicon.ico">
+    <link rel="shortcut icon" href="images/logoD(v).png">
     <link rel="apple-touch-icon" sizes="144x144" type="image/x-icon" href="images/logoD(v).png">
     
     <!-- All CSS Plugins -->
@@ -82,13 +82,13 @@
                                 </div>
                                 <div class="navbar-collapse collapse">
                                     <ul class="nav navbar-nav navbar-right">
-                                        <li class="active"><a class="smoth-scroll" href="#home">Home <div class="ripple-wrapper"></div></a></li>
-                                        <li><a class="smoth-scroll" href="#services">services</a></li>
-                                        <li><a class="smoth-scroll" href="#portfolio">Portfolio</a></li>
-                                        <li><a class="smoth-scroll" href="#team">Team</a></li>
-                                        <li><a class="smoth-scroll" href="#testimonials">Testimonial</a>
-                                        <%--<li><a class="smoth-scroll" href="#pricing">Pricing</a></li>--%>
-                                        <li><a class="smoth-scroll" href="kontakt.aspx">Contact</a>                                  
+                                        <li class="active"><a class="smoth-scroll" href="home.aspx">Home <div class="ripple-wrapper"></div></a></li>
+                                        <li><a class="smoth-scroll" href="home.aspx#services">services</a></li>
+                                        <li><a class="smoth-scroll" href="home.aspx#portfolio">Portfolio</a></li>
+                                        <li><a class="smoth-scroll" href="home.aspx#team">Team</a></li>
+                                        <li><a href="home.aspx#testimonials">Testimonial</a></li>
+                                        <li><a class="smoth-scroll" href="#pricing">Pricing</a></li>
+                                        <li><a class="smoth-scroll" href="contact.aspx">Contact</a></li>                              
                                     </ul>
                                 </div>
                             </div>
@@ -123,7 +123,7 @@
 				<div class="row">
 					<div class="col-md-3">
 						<h2 class="fh5co-footer-title">About</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.</p>
+						<p>Creative agency from Zagreb, Croatia passionate about development and design</p>
 					</div>
 					<div class="col-md-5">
 						<h2 class="fh5co-footer-title" style="color:#0794F3">Offices</h2>

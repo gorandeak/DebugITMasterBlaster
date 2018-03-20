@@ -49,10 +49,10 @@
 
         $('a.smoth-scroll').on("click", function (e) {
             var anchor = $(this);
-            $('html, body').stop().animate({
+            $('html, body').animate({
                 scrollTop: $(anchor.attr('href')).offset().top - 50
             }, 1000);
-            e.preventDefault();
+            //e.preventDefault();
         });
 		
 

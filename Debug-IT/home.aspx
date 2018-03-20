@@ -8,14 +8,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <!-- SEO -->
-    <meta name="description" content="150 words">
-    <meta name="author" content="uipasta">
-    <meta name="url" content="http://www.yourdomainname.com">
-    <meta name="copyright" content="company name">
+    <meta name="description" content="WEBSITE DESIGN, WEB APP DEVELOPEMENT, ANDROID APP DEVELOPEMENT, DIGITAL MARKETING and GRAPHIC DESIGN! You need all of this to STAND OUT!">
+    <meta name="author" content="Debug IT">
+    <meta name="url" content="http://www.debug-it.hr">
+    <meta name="copyright" content="Debug IT">
     <meta name="robots" content="index,follow">
 
 
-    <title></title>
+    <title>Debug IT</title>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="images/logoD(v).png">
@@ -25,15 +25,14 @@
     <link rel="stylesheet" type="text/css" href="css/plugin.css">
 
     <!-- Main CSS Stylesheet -->
-    <link rel="stylesheet" type="text/css" href="css/style.css?ver=1.1">
+    <link rel="stylesheet" type="text/css" href="css/style.css?ver=2">
 
     <!-- Google Web Fonts  -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700">
 
     <!-- Oxygen  -->
     <link href="css/animate.min.css" rel="stylesheet" />
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <link href="css/main.css" rel="stylesheet" />
+
 
 
     <!-- HTML5 shiv and Respond.js support IE8 or Older for HTML5 elements and media queries -->
@@ -41,7 +40,6 @@
 	   <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 	   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-
 
 </head>
 
@@ -65,7 +63,7 @@
                     <div class="col-sm-3">
                         <div class="logo">
                             <a href="#">
-                                <img src="images/logoD(v).png" /></a>
+                                <img src="images/logoD(v).png" alt="Debug IT"/></a>
                         </div>
                     </div>
                     <div class="col-sm-9">
@@ -87,9 +85,9 @@
                                         <li><a class="smoth-scroll" href="#services">services</a></li>
                                         <li><a class="smoth-scroll" href="#portfolio">Portfolio</a></li>
                                         <li><a class="smoth-scroll" href="#team">Team</a></li>
-                                        <li><a class="smoth-scroll" href="#testimonials">Testimonial</a>
+                                        <li><a class="smoth-scroll" href="#testimonials">Testimonial</a></li>
                                         <li><a class="smoth-scroll" href="underConstruction.aspx">Pricing</a></li>
-                                        <li><a class="smoth-scroll" href="kontakt.aspx">Contact</a>
+                                        <li><a class="smoth-scroll" href="contact.aspx">Contact</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -124,7 +122,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <a href="kontakt.aspx" class="ignite-btn" style="line-height: 100%;">LET'S TALK BUSINESS </a>
+                    <a href="contact.aspx" class="ignite-btn" style="line-height: 100%;">LET'S TALK BUSINESS </a>
                 </div>
             </div>
         </div>
@@ -148,7 +146,7 @@
                     <div class="services-detail">
                         <i class="fa fa-code color-1"></i>
                         <h3>WEBSITE DESIGN</h3>
-                        <hr>
+                        <hr/>
                         <p style="font-size: 13px;">
                             You need web page that looks perfect on any device.
 From shot to pitcher, smart phone to desktop, your site should look and function seamlessly.<br />
@@ -162,7 +160,7 @@ We speak all of the best languages. :)
                     <div class="services-detail">
                         <i class="fa fa-desktop color-2"></i>
                         <h3>WEB APP DEVELOPEMENT</h3>
-                        <hr>
+                        <hr/>
                         <p style="font-size: 13px;">By fully understanding your requirements and asking the right questions, Debug IT's development team delivers complex yet user-friendly web applications and can help starting with strategy all the way through delivery and maintenance.</p>
                     </div>
                 </div>
@@ -171,7 +169,7 @@ We speak all of the best languages. :)
                     <div class="services-detail">
                         <i class="fa fa-mobile color-3"></i>
                         <h3>ANDROID APP DEVELOPEMENT</h3>
-                        <hr>
+                        <hr/>
                         <p style="font-size: 13px;">Looking for an affordable solution provider to develop your mobile app, look no further. The Debug IT team can help you transform your idea into an intuitive, unique and user-friendly mobile application. </p>
                     </div>
                 </div>
@@ -182,7 +180,7 @@ We speak all of the best languages. :)
                     <div class="services-detail">
                         <i class="fa fa-bullhorn color-4"></i>
                         <h3>DIGITAL MARKETING</h3>
-                        <hr>
+                        <hr/>
                         <p style="font-size: 13px;">
                             Are you looking to have better engagement levels across web and mobile?<br />
                             We create well balanced, integrated programs that make sense for your entire business and work towards your ultimate, bottom line goals.
@@ -194,7 +192,7 @@ We speak all of the best languages. :)
                     <div class="services-detail">
                         <i class="fa fa-pencil color-5"></i>
                         <h3>GRAPHIC DESIGN</h3>
-                        <hr>
+                        <hr/>
                         <p style="font-size: 13px;">Good design makes businesses and their communication tools better.<br />
                             From a logo to a complete brand identity we’ve got you covered. Our graphic design team, are fully qualified, full of ideas and full of enthusiasm!</p>
                     </div>
@@ -203,10 +201,11 @@ We speak all of the best languages. :)
                 <div class="col-md-4 col-sm-6">
                     <div class="services-detail">
                         <i class="fa fa-ge color-6"></i>
-                        <h3>NEŠTO</h3>
-                        <hr>
-                        <p style="font-size: 13px;">Rolling is a clean and beautiful template with every must features. You can use it for many purpose in website.<br />
-                            Rolling is a clean and beautiful template with every must features. You can use it for many purpose in website.</p>
+                        <h3>STAND OUT!</h3>
+                        <hr/>
+                        <p style="font-size: 13px;">Grow your brand with us!
+We offer you all of it. For a great price get the whole package. Make your own combination of services and give yourself a better new start for your company. 
+Just give us a call and make that a first step in your new successful journey.</p>
                     </div>
                 </div>
             </div>
@@ -242,7 +241,7 @@ We speak all of the best languages. :)
                     <div class="col-md-4 col-sm-6 col-xs-12 mix webpage">
                         <div class="item">
                             <a href="images/awm-port.jpg" class="portfolio-popup" title="Project Title">
-                                <img src="images/awm-port.jpg" alt="">
+                                <img src="images/awm-port.jpg" alt="awm-knjigovodstvo"/>
                             </a>
                         </div>
                     </div>
@@ -250,7 +249,7 @@ We speak all of the best languages. :)
                     <div class="col-md-4 col-sm-6 col-xs-12 mix webpage">
                         <div class="item">
                             <a href="images/prvir-port.jpg" class="portfolio-popup" title="Project Title">
-                                <img src="images/prvir-port.jpg" alt="">
+                                <img src="images/prvir-port.jpg" alt="prvi račun"/>
                             </a>
                         </div>
                     </div>
@@ -258,23 +257,23 @@ We speak all of the best languages. :)
                     <div class="col-md-4 col-sm-6 col-xs-12 mix webpage">
                         <div class="item">
                             <a href="images/vitomiha-port.jpg" class="portfolio-popup" title="Project Title">
-                                <img src="images/vitomiha-port.jpg" alt="">
+                                <img src="images/vitomiha-port.jpg" alt="vito miha"/>
                             </a>
                         </div>
                     </div>
 
                     <div class="col-md-4 col-sm-6 col-xs-12 mix graphic-design">
                         <div class="item">
-                            <a href="images/portfolio/4.jpg" class="portfolio-popup" title="Project Title">
-                                <img src="images/awm3.jpg" alt="">
+                            <a href="images/awm3.jpg" class="portfolio-popup" title="Project Title">
+                                <img src="images/awm3.jpg" alt="awm-knjigovodstvo"/>
                             </a>
                         </div>
                     </div>
 
                     <div class="col-md-4 col-sm-6 col-xs-12 mix graphic-design ">
                         <div class="item">
-                            <a href="images/portfolio/5.jpg" class="portfolio-popup" title="Project Title">
-                                <img src="images/vm1.jpg" alt="">
+                            <a href="images/vm1.jpg" class="portfolio-popup" title="Project Title">
+                                <img src="images/vm1.jpg" alt="vito miha"/>
                             </a>
                         </div>
                     </div>
@@ -293,7 +292,7 @@ We speak all of the best languages. :)
     <!-- Portfolio End -->
 
     <!-- Team -->
-    <section id="team">
+    <section id="team" class="team section-space-padding">
         <div class="container" style="margin-top: 7%; padding-bottom: 7%;">
             <div class="row" style="margin-top: 7%;">
                 <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
@@ -311,13 +310,13 @@ We speak all of the best languages. :)
                     <div class="col-md-4 col-sm-12">
                         <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
                             <div class="member-image text-center">
-                                <img class="img-responsive" src="images/Deak.jpg" alt="">
+                                <img class="img-responsive" src="images/Deak.jpg" alt="Goran Deak, Debug IT" />
                             </div>
                             <div class="member-info">
                                 <h3 style="color: #0794F3">Goran Deak</h3>
                                 <h4 style="color: #F39207">CEO &amp; Founder</h4>
                                 <h4 style="color: white">Digital Marketing Specialist</h4>
-                                <%--<p style="color:white">Consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>--%>
+                                <p style="color:white"><a href="mailto:goran.deak@debug-it.hr">goran.deak@debug-it.hr</a></p>
                             </div>
                             <%-- <div class="social-icons">
                 <ul>
@@ -330,13 +329,13 @@ We speak all of the best languages. :)
                     <div class="col-md-4 col-sm-12">
                         <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
                             <div class="member-image text-center">
-                                <img class="img-responsive" src="images/jove1.jpg" alt="">
+                                <img class="img-responsive" src="images/jove1.jpg" alt="Ivana Perko, Debug IT" />
                             </div>
                             <div class="member-info">
                                 <h3 style="color: #0794F3">Ivana Perko</h3>
                                 <h4 style="color: #F39207">co-CEO &amp; Founder</h4>
                                 <h4 style="color: white">UI/UX Designer</h4>
-                                <%--<p style="color:white">Consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>--%>
+                                <p style="color:white"><a href="mailto:ivana.perko@debug-it.hr">ivana.perko@debug-it.hr</a></p>
                             </div>
                             <%--<div class="social-icons">
                 <ul>
@@ -353,13 +352,13 @@ We speak all of the best languages. :)
                     <div class="col-md-4 col-sm-12">
                         <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
                             <div class="member-image">
-                                <img class="img-responsive" src="images/adel1.jpg" alt="">
+                                <img class="img-responsive" src="images/adel1.jpg" alt="Adel Othman, Debug IT" />
                             </div>
                             <div class="member-info">
                                 <h3 style="color: #0794F3">Adel Othman</h3>
                                 <h4 style="color: #F39207">CDO</h4>
                                 <h4 style="color: white">Backend Team Lead</h4>
-                                
+                                <p style="color:white"><a href="mailto:adel.othman@debug-it.hr">adel.othman@debug-it.hr</a></p>
                             </div>
                             <%-- <div class="social-icons">
                 <ul>
@@ -408,22 +407,21 @@ We speak all of the best languages. :)
                 <div class="testimonial-carousel-list margin-top-20">
 
                     <div class="testimonial-word text-center">
-                        <img src="images/testimonial/vm-t.jpg" class="img-responsive" alt="">
+                        <img src="images/testimonial/vm-t.jpg" class="img-responsive" alt="Vito-Miha"/>
                         <h2>VITO-MIHA prijevoz j.d.o.o.</h2>
                         <p>I would definitely recommend Debug IT for professional website and logo design. It has been a great experience working with them!</p>
                     </div>
 
                     <div class="testimonial-word text-center">
-                        <img src="images/testimonial/awm-t.jpg" class="img-responsive" alt="">
+                        <img src="images/testimonial/awm-t.jpg" class="img-responsive" alt="All-Ware Media"/>
                         <h2>AWM Knjigovodstvo j.d.o.o.</h2>
-                        <p>I couldn't be happier with my choice of using Debug IT for my new website. Their team was easy to work with and helped me make a great website in a short amount of time.
-Thanks again for all your hard work!</p>
+                        <p>We could not be happier with Debug IT team! In a short amount of time they offered us an ideal solution for our website as far as design and whole website structure.</p>
                     </div>
 
                     <div class="testimonial-word text-center">
-                        <img src="images/testimonial/pr-t.jpg" class="img-responsive" alt="">
+                        <img src="images/testimonial/pr-t.jpg" class="img-responsive" alt="Prvi račun"/>
                         <h2>Prvi Račun d.o.o.</h2>
-                        <p>Awesome to work with. Incredibly organized, easy to communicate with, responsive with next iterations, and beautiful work.</p>
+                        <p>Thank you mr. Deak Goran from Debug IT for professionally made website. The expert team made the whole web design perfectly fast and above all very professionally. Recommend to all, thank you once again!</p>
                     </div>
 
                 </div>
@@ -444,7 +442,7 @@ Thanks again for all your hard work!</p>
             <div class="row">
                 <div class="col-md-3">
                     <h2 class="fh5co-footer-title">About</h2>
-                    <p>Creative agency from Zagreb, Croatia passionate about developement and design. </p>
+                    <p>Creative agency from Zagreb, Croatia passionate about development and design. </p>
                 </div>
                 <div class="col-md-5">
                     <h2 class="fh5co-footer-title" style="color: #0794F3">Offices</h2>
@@ -513,7 +511,7 @@ Thanks again for all your hard work!</p>
     <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyC0HAKwKinpoFKNGUwRBgkrKhF-sIqFUNA"></script>
 
     <!-- Main Javascript File  -->
-    <script type="text/javascript" src="js/scripts.js?ver=1.1"></script>
+    <script type="text/javascript" src="js/scripts.js?ver=2"></script>
 
     <!-- Particles js  -->
     <script src="js/particles.js"></script>

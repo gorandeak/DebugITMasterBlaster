@@ -10,6 +10,6 @@
 namespace Debug_IT {
     
     
-    public partial class Početna {
+    public partial class home {
     }
 }

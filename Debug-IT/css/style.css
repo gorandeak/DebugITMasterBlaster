@@ -523,7 +523,7 @@ body.loaded #preloader{
 /*************************
 *********Team CSS*********
 **************************/
-#team {
+.team {
     padding-top: 0;
     background-color: #282727;
     
@@ -913,7 +913,11 @@ ul.portfolio li:hover {
 }
 
 .contact-us-detail a:hover {
-	color: #333;
+	color: darkorange;
+}
+
+.radnovrijeme:hover {
+    color: darkorange !important;
 }
 
 .form-group {
@@ -1124,7 +1128,7 @@ footer {
         font-size: 12px;
         text-transform: uppercase;
         display: inline-block;
-        margin-bottom: 2s0px;
+        margin-bottom: 20px;
     }
 
     footer .fh5co-footer-links {
