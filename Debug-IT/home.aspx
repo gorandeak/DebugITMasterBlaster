@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,300,500,600,700">
 
     <!-- Oxygen  -->
-    <link href="css/animate.min.css" rel="stylesheet" />
+    <link href="css/animate.min.css" rel="stylesheet" />  
 
 
 
