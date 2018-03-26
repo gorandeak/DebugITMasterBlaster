@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="home.aspx.cs" Inherits="Debug_IT.home" %>
+
+<!DOCTYPE html>
 <html>
 <head>
 
@@ -40,6 +42,7 @@
 	   <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
 	   <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
 </head>
 
 <body>
@@ -215,8 +218,8 @@ Just give us a call and make that a first step in your new successful journey.</
 
 
     <!-- Portfolio Start -->
-    <section id="portfolio" class="portfolio section-space-padding">
-        <div class="container">
+    <section id="portfolio" class="portfolio section-space-padding jebo">
+        <div class="container ">
             <div class="row">
                 <div class="col-sm-12">
                     <div class="section-title">
@@ -516,6 +519,7 @@ Just give us a call and make that a first step in your new successful journey.</
     <script src="js/particles.js"></script>
     <script src="js/particles.min.js"></script>
     <script src="js/app.js"></script>
+
 
 </body>
 </html>

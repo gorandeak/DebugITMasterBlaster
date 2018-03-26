@@ -616,6 +616,7 @@ body.loaded #preloader{
 /* Portfolio */
 
 
+
 .portfolio-inner .mix {
     display: none;
 }
@@ -1768,8 +1769,13 @@ footer .fh5co-footer-social li {
 
 
 /*media */
-/*@media screen and (max-width: 768px) {
-    .header-text {
-        padding-top: -20% !important;
+@media all and (max-width: 600px) {
+    .jebo {
+        height: 2200px;
     }
-}*/
+}
+@media all and (min-width: 601px) {
+    .jebo {
+        height: 1000px;
+    }
+}
